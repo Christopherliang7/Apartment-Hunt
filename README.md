@@ -1,23 +1,43 @@
 # ApartmentHunt
 
-### OVERVIEW
-Redesign Apartment Hunt’s current website utilizing modern technologies.
+## Overview
+Apartment Hunt is a NYC Apartment Rental Application that provides an all-in-one service for apartment seekers. This includes finding apartments in their ideal location, speaking with agents via live chat, virtual tours, and secure document uploads. 
 
-### GOALS
-1. Allow users to search for an apartment and filter by certain parameters.
-2. Allow agents to answer user questions.
-3. Allow for secure document uploads.
-4. Allow for agents to add listings.
-5. Allow agents to upload virtual tour of apartments.
+## User Stories
+1. As a client, I want to be able to search for an apartment in my ideal location and filter by certain parameters.
+2. As a client, I want to be able to ask agents questions about the apartment and recieve responses via live chat.
+3. As a client, I was to be able to uplaod my documents securely.
+4. As a client, I want to be able to see virtual tours when I can't be there in person.
+5. As an agent, I was to be able to see my list of clients, our chat histories, upload virtual tours and add listings to our database.
 
-### STYLING REQUIREMENTS
+## Installation
 
-<span style="font-family:'Comic Sans MS', 'Comic Sans', cursive">Comic Sans</span> will be the default website font.
-<span style="color:pink">Pink</span> will be the primary color of the website.
+After cloning repository, run the following commands.
+To install dependencies:
+```
+npm install
+```
+To bundle js files:
+```
+npm run build-prod
+```
+To start server:
+```
+npm start
+```
 
+Visit [localhost:3000](http:localhost:3000/) to view Apartment Hunt's home page. 
 
-### Scripts
+## Technologies
+- JavaScript
+- React Hooks & Context
+- Sass
+- Material UI
+- Google Cloud API
+- Websockets
+- Node
+- Express
+- MongoDB
+- AWS EC2 & S3
+- Auth
 
-npm start: Run this to start server running on port 3000. BE ADVISED - this command __does not__ run nodemon!
-npm run build: Run this script to compile webpack running in watch mode.
-npm test: Run this script to run __all__ test. Jest automatically looks for files with 'compenent'.test.js formating
