@@ -41,3 +41,6 @@ Visit [localhost:3000](http:localhost:3000/) to view Apartment Hunt's home page.
 - AWS EC2 & S3
 - Auth
 
+![](https://github.com/Christopherliang7/Apartment-Hunt/blob/staging/homepage.png)
+
+![](https://github.com/Christopherliang7/Apartment-Hunt/blob/staging/homepagelogin.png)
